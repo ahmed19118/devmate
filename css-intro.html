@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مقدمة في CSS</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      direction: rtl;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #1e3a8a;
+    }
+
+    p {
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+
+    a.back-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    a.back-btn:hover {
+      background-color: #1e40af;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>مقدمة في CSS</h1>
+    <p><strong>CSS</strong> هي اختصار لـ <em>Cascading Style Sheets</em> وتعني "أوراق الأنماط المتتالية". تُستخدم لتنسيق صفحات الويب من حيث الألوان، الخطوط، ترتيب العناصر، وغيرها.</p>
+    
+    <p>تُكتب CSS جنب HTML علشان تدي شكل جميل ومهني للموقع. بدل ما الصفحة تكون مجرد نصوص وصور، CSS بيخليها أنيقة وجذابة.</p>
+    
+    <p>مثال بسيط:</p>
+
+    <pre>
+&lt;style&gt;
+  body {
+    background-color: lightblue;
+  }
+&lt;/style&gt;
+    </pre>
+
+    <p>السطر ده هيغير لون خلفية الصفحة إلى أزرق فاتح.</p>
+
+    <a href="blog.html" class="back-btn">⬅ العودة إلى المقالات</a>
+  </div>
+
+</body>
+</html>

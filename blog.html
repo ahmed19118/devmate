@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>DevMate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+    }
+
+    nav {
+      background-color: #1e3a8a;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+      transform: scale(1.05);
+    }
+
+    h1 {
+      text-align: center;
+      margin: 40px 0 20px;
+      color: #1e3a8a;
+    }
+
+    p {
+      text-align: center;
+      font-size: 18px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="blog.html">المدونة</a>
+    <a href="about.html">من نحن</a>
+    <a href="privacy.html">سياسة الخصوصية</a>
+    <a href="contact.html">اتصل بنا</a>
+  </nav>
+
+  <h1>مرحبًا بك في DevMate</h1>
+  <p>ابدأ رحلتك في تعلم البرمجة معنا</p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مقالات البرمجة</title>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      direction: rtl;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f2f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #2d3436;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 30px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 15px 0;
+    }
+
+    a.article-link {
+      display: block;
+      padding: 15px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      color: #2c3e50;
+      text-decoration: none;
+      font-size: 18px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      transition: 0.3s;
+    }
+
+    a.article-link:hover {
+      background-color: #dfe6e9;
+      transform: translateX(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>📚 مقالات تعلم البرمجة</h1>
+    <p>اختر مقال لتبدأ في رحلة التعلم</p>
+  </header>
+
+  <main>
+    <ul>
+      <li><a href="html-basics.html" class="article-link">📄 أساسيات HTML</a></li>
+      <li><a href="css-intro.html" class="article-link">🎨 مقدمة في CSS</a></li>
+      <li><a href="js-intro.html" class="article-link">⚙️ مدخل إلى JavaScript</a></li>
+    </ul>
+  </main>
+
+  <footer>
+    © 2025 موقعك - جميع الحقوق محفوظة
+  </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ابدأ مع HTML بسهولة</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0d47a1;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 30px 20px;
+      background-color: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    h1 {
+      color: #0d47a1;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #1565c0;
+    }
+
+    code {
+      background-color: #e3f2fd;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+      direction: ltr;
+    }
+
+    pre {
+      background-color: #eceff1;
+      padding: 15px;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+
+    .highlight {
+      background-color: #e1f5fe;
+      border-left: 4px solid #0288d1;
+      padding: 10px 15px;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+
+    .btn-back {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #0d47a1;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      margin-top: 40px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🚀 بداية قوية مع HTML</h1>
+    <p>أول خطوة لتصبح مطور ويب محترف تبدأ من هنا</p>
+  </header>
+
+  <div class="container">
+    <h2>ما هي HTML؟</h2>
+    <p>هي اللغة اللي بتخلي المواقع ممكن تتعرض على الإنترنت. ببساطة، HTML هي الهيكل الأساسي لأي صفحة.</p>
+
+    <div class="highlight">
+      🎯 <strong>لو عمرك ما برمجت قبل كده؟ ولا يهمك!</strong><br>
+      HTML هي أسهل طريق تبدأ بيه في عالم البرمجة، بدون تعقيد وبدون برامج صعبة.
+    </div>
+
+    <h2>ليه تتعلم HTML؟</h2>
+    <ul>
+      <li>تقدر تبني صفحات ويب بنفسك</li>
+      <li>تشتغل كفريلانسر أو تبدأ مشروعك</li>
+      <li>هي أول لبنة لأي مطور Frontend</li>
+    </ul>
+
+    <h2>شكل صفحة HTML بسيطة:</h2>
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;موقعي الأول&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;أهلاً بالعالم!&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+
+    <h2>أشهر الوسوم (Tags)</h2>
+    <ul>
+      <li><code>&lt;h1&gt; إلى &lt;h6&gt;</code>: لعناوين المحتوى.</li>
+      <li><code>&lt;p&gt;</code>: لكتابة فقرة.</li>
+      <li><code>&lt;a&gt;</code>: لإنشاء روابط.</li>
+      <li><code>&lt;img&gt;</code>: لعرض الصور.</li>
+      <li><code>&lt;ul&gt; و &lt;li&gt;</code>: لقوائم منظمة.</li>
+    </ul>
+
+    <div class="highlight">
+      💡 نصيحة: كل ما تتعلم و تطبّق بيدك، هتفهم أكتر وهتحترف أسرع.
+    </div>
+
+    <a class="btn-back" href="blog.html">← العودة إلى المدونة</a>
+  </div>
+
+  <footer>
+    &copy; 2025 DevMate — جميع الحقوق محفوظة.
+  </footer>
+
+</body>
+</html<ul>
+  <li><a href="blog-programming.html">ما هي البرمجة ولماذا يجب أن تتعلمها؟</a></li>
+</ul>
